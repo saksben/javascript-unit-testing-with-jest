@@ -1,0 +1,39 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section>
+    <div class="table">
+        <table>
+        <thead>
+            <tr>
+            <th scope="col">Event name</th>
+            <th scope="col">Date</th>
+            <th scope="col">Price per ticket</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="event-name">Alexander Lemtov Live</td>
+            <td class="event-date">1/11/2021</td>
+            <td class="event-price">$65</td>
+            <td class="event-basket-quantity">
+                <select name="filter-dropdown">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+                </select>
+                <button>Update</button>
+            </td>
+            <td class="event-total">$130 <a href=""><img src="img/quantity-x.svg" /></a></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+</section>
+<section>
+    <p class="back-to-catalog"><img src="/img/back-arrow.svg" /><a href="/catalog/">Back to event catalog</a></p>
+</section>
+{% endblock %}

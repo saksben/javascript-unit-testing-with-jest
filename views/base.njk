@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Globoticket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    {% block scripts%}
+    {% endblock %}
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><img src="/img/globoticket-horizontal-white.svg"></h1>
+        <div class="header-cart">
+          <img src="/img/cart.svg" />
+          <p><span>0</span> tickets</p>
+        </div>
+      </header>
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<section class="section-details">
+    <div class="details-left">
+        <img src="/img/shutterstock_415922566_details_page.jpg" />
+    </div>
+    <div class="details-right">
+        <p class="event-type">Concerts</p>
+        <h2>Alexander Lemtov Live</h2>
+        <h3>Alexander Lemtov</h3>
+        <p class="event-date">1/11/2021</p>
+        <p class="event-description">Join Alexander for his global.  Alexander really needs no introduction since he has already mesmerized the world with his electronic ambient sound.</p>
+        <div class="event-price-container">
+        <p class="event-price">$65</p>
+        <p class="event-per-ticket">per ticket</p>
+        </div>
+    </div>
+    </section>
+    <section class="section-details divider">
+    </section>
+    <section class="section-details">
+    <div class="details-left">
+    </div>
+    <div class="details-right details-right-purchasing">
+        <p>Quantity</p>
+        <select name="filter-dropdown">
+        <option selected>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        </select>
+        <div class="event-purchase-button">
+        <a href="basket.html"><button>Place Order</button></a>
+        </div>
+    </div>
+</section>
+{% endblock %}

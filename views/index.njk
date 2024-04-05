@@ -1,0 +1,62 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+<section>
+    <div class="search-bar">
+        <select name="filter-dropdown">
+        <option selected>all</option>
+        <option>other 1</option>
+        <option>other 2</option>
+        <option>other 3</option>
+        </select>
+        <button>Filter</button>
+    </div>
+    <div class="table">
+        <table>
+        <thead>
+            <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">Date</th>
+            <th scope="col">Name</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Price</th>
+            <th scope="col">&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="event-image">
+                <img src="/img/shutterstock_415922566_thumbnail_1.jpg" />
+            </td>
+            <td class="event-date">1/11/2021<br />4:22 PM</td>
+            <td class="event-name">Alexander Lemtov Live</td>
+            <td class="event-artist">Alexander Lemtov</td>
+            <td class="event-price">$65</td>
+            <td class="event-purchase-button"><a href="details.html"><button>Purchase Details</button></a></td>
+            </tr>
+            <tr>
+            <td class="event-image">
+                <img src="/img/shutterstock_606456248_thumbnail_2.jpg" />
+            </td>
+            <td class="event-date">3/11/2021<br />4:22 PM</td>
+            <td class="event-name">To the Moon and Back</td>
+            <td class="event-artist">Santiago Martinez</td>
+            <td class="event-price">$135</td>
+            <td class="event-purchase-button"><button>Purchase Details</button></td>
+            </tr>
+            <tr>
+            <td class="event-image">
+                <img src="/img/shutterstock_1746589040_thumbnail_3.jpg" />
+            </td>
+            <td class="event-date">4/11/2021<br />4:22 PM</td>
+            <td class="event-name">The State of Affairs: Mariam Live!</td>
+            <td class="event-artist">Mariam Johnson</td>
+            <td class="event-price">$85</td>
+            <td class="event-purchase-button"><button>Purchase Details</button></td>
+            </tr>
+        </tbody>
+        </table>          
+    </div>
+</section>
+{% endblock %}
