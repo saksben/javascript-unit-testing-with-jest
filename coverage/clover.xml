@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1712304129526" clover="3.2.0">
+  <project timestamp="1712304129526" name="All files">
+    <metrics statements="164" coveredstatements="100" conditionals="63" coveredconditionals="27" methods="38" coveredmethods="23" elements="265" coveredelements="150" complexity="0" loc="164" ncloc="164" packages="9" files="13" classes="13"/>
+    <package name="basket">
+      <metrics statements="37" coveredstatements="32" conditionals="15" coveredconditionals="11" methods="8" coveredmethods="7"/>
+      <file name="basket.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\basket\basket.js">
+        <metrics statements="33" coveredstatements="28" conditionals="15" coveredconditionals="11" methods="6" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+      </file>
+      <file name="basketitem.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\basket\basketitem.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="5" count="15" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="error-handling">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <file name="exceptions.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\error-handling\exceptions.js">
+        <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="events">
+      <metrics statements="43" coveredstatements="32" conditionals="24" coveredconditionals="8" methods="8" coveredmethods="8"/>
+      <file name="event.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\events\event.js">
+        <metrics statements="24" coveredstatements="13" conditionals="20" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="33" type="stmt"/>
+        <line num="6" count="33" type="stmt"/>
+        <line num="7" count="33" type="stmt"/>
+        <line num="8" count="33" type="stmt"/>
+        <line num="9" count="33" type="stmt"/>
+        <line num="10" count="33" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+      </file>
+      <file name="filters.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\events\filters.js">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+      <file name="search.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\events\search.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="promotions">
+      <metrics statements="17" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="promotions.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\promotions\promotions.js">
+        <metrics statements="17" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="promotions.discount">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="discount.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\promotions\discount\discount.js">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="promotions.exchange">
+      <metrics statements="16" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="exchange.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\promotions\exchange\exchange.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="exchangeRateProvider.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\promotions\exchange\exchangeRateProvider.js">
+        <metrics statements="11" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="users">
+      <metrics statements="9" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="users.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\users\users.js">
+        <metrics statements="9" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="users.account">
+      <metrics statements="21" coveredstatements="16" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="4"/>
+      <file name="account.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\users\account\account.js">
+        <metrics statements="21" coveredstatements="16" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="24" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="users.account.purchaseHistory">
+      <metrics statements="11" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="purchaseHistory.js" path="C:\Users\saksb\OneDrive\Desktop\Macbook\Desktop\Notes\Coding\Projects\pluralsight\Jest\JavaScript Unit Testing with Jest\globoticket\js\users\account\purchaseHistory\purchaseHistory.js">
+        <metrics statements="11" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
